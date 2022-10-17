@@ -1,0 +1,39 @@
+.container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: inline-block;
+  border-radius: var(--border-radius);
+}
+
+.counter,
+.button {
+  padding: 0.6rem 1rem;
+  border: none;
+}
+.counter {
+  width: 80px;
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: var(--text-color-white);
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:nth-of-type(1) {
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+.button:nth-of-type(2) {
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 480px) {
+}

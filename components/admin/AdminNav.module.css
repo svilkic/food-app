@@ -1,0 +1,17 @@
+.container {
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+.container a:hover {
+  opacity: 0.5;
+}
+.link {
+  cursor: pointer;
+}
+.link:hover {
+  opacity: 0.5;
+}

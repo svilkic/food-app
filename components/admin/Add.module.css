@@ -1,0 +1,95 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(155, 155, 155, 0.52);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 500px;
+  background-color: white;
+  padding: 2rem 2.5rem;
+  /* border-radius: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  cursor: text;
+}
+.imageCropper {
+  margin: auto;
+}
+.description {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.variantContainer {
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.inputSm {
+  width: 45%;
+}
+
+.extra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addButton {
+  width: 25%;
+  border: none;
+  background-color: teal;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: flex-end;
+  color: var(--color-white);
+  padding: 0.6rem 1rem;
+}

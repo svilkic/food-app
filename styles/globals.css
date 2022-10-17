@@ -1,3 +1,17 @@
+*:root {
+  box-sizing: border-box;
+  --color-primary: #eb5317;
+  --color-white: #ececec;
+  --color-black: #111;
+
+  --text-color-dark: #111;
+  --text-color-medium: #313131;
+  --text-color-light: #949494;
+  --text-color-white: #ececec;
+
+  --border-radius: 10px;
+}
+
 html,
 body {
   padding: 0;

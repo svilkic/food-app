@@ -1,0 +1,101 @@
+.container {
+  padding: 50px;
+  display: flex;
+}
+
+.left {
+  flex: 3;
+}
+
+.right {
+  flex: 1;
+}
+
+.imgContainer {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.trTitle {
+  text-align: left;
+}
+
+.name {
+  font-weight: 500;
+  color: var(--color-primary);
+  font-size: 18px;
+}
+
+.total {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.wrapper {
+  width: 90%;
+  height: 100%;
+  background-color: var(--text-color-medium);
+  padding: 50px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--text-color-white);
+  border-radius: var(--border-radius);
+}
+.subtotaltotalText,
+.totalText,
+.discountText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discountText {
+  color: #999;
+}
+.totalText {
+  margin-top: 1rem;
+}
+
+.totalTextTitle {
+  margin-right: 10px;
+}
+
+.button {
+  width: 100%;
+  background-color: var(--color-primary);
+  color: var(--text-color-white);
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  transition: all 500ms;
+  text-align: left;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.icon {
+  cursor: pointer;
+  transition: all 300ms;
+  font-size: 1.2rem;
+}
+.icon:hover {
+  opacity: 0.7;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

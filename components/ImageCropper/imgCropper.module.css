@@ -1,0 +1,81 @@
+.previewImage {
+  width: 127px;
+  height: 127px;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.previewImage img {
+  width: 100%;
+}
+.previewImage .imgPencil {
+  display: none;
+}
+
+.editable:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  background-color: var(--text-color-light);
+}
+
+.previewImage:hover .imgPencil {
+  display: initial;
+  position: absolute;
+  z-index: 50;
+  color: #fff;
+  opacity: 1.5;
+}
+
+.cropBackdrop {
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cropTools {
+  display: flex;
+  flex-direction: column;
+}
+
+.cropContainer {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background: #333;
+}
+
+.cropped-image-preview {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 300px;
+  max-width: 300px;
+}
+
+.cropBtn {
+  position: relative;
+  width: 300px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1rem;
+  z-index: 5;
+  background-color: var(--color-primary);
+  color: var(--text-color-dark);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.6rem 1rem;
+  padding: 0.5rem 0;
+}
+.cropBtn:hover {
+  opacity: 0.8;
+  cursor: copy;
+}
